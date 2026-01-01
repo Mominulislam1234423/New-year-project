@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url("../images/Banner\ Image.png");
+    background-blend-mode: overlay;
+    background-color: #0702115f;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner h4 {
+    font-size: 28px;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+}
+
+#discount {
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.contant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+
+}
+
+.contant h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.contant h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.contant p {
+    color: #FF0000;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.join-card {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 10px;
+    background-image: url("../images/Vectorrr.png");
+    background-blend-mode: overlay;
+    background-color: #0702115f;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card-description h1{
+  font-family: "Merriweather", serif;
+    color: white;
+    font-size: 50px;
+}
+
+.card-description p{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-description span{
+    color: white;
+}
+
+.card-description{
+    margin-top: 90px
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.card-img{
+    color: gray;
+}
+
+#contract{
+     width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: #ffa8f254;
+    text-align: center;
+}
+
+.contract p{
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.contract p span{
+    color: red;
+}
+
+.contract button{
+    background-color: #FF0000;
+    padding: 5px 10px ;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
